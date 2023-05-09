@@ -1,1 +1,19 @@
-
+[18:53:19] [ServerMain/INFO]: Building unoptimized datafixer
+[18:53:19] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraf>
+[18:53:20] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
+[18:53:21] [ServerMain/INFO]: Loaded 7 recipes
+[18:53:19] [ServerMain/INFO]: Building unoptimized datafixer
+[18:53:19] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraf>
+[18:53:20] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
+[18:53:21] [ServerMain/INFO]: Loaded 7 recipes
+[18:53:21] [Server thread/INFO]: Starting minecraft server version 1.19.3
+[18:53:21] [Server thread/INFO]: Loading properties
+[18:53:21] [Server thread/INFO]: This server is running CraftBukkit version 3655-Spigot-19641c7-8ba5e39 (MC: 1.19.3) (Implementing API version 1.19.3-R0.1-SNAPSHOT)
+[18:53:22] [Server thread/INFO]: Debug logging is disabled
+[18:53:22] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:53:22] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:53:22] [Server thread/INFO]: Default game type: SURVIVAL
+[18:53:22] [Server thread/INFO]: Generating keypair
+[18:53:22] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:53:22] [Server thread/INFO]: Using epoll channel type
+[18:53:22] [Server thread/INFO]: Preparing level "world"
