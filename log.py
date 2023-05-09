@@ -29,13 +29,10 @@ class Log:
             second_open_bracket_pos = self.text.index('[', open_bracket_pos + 1)
 
             # Extraire le nom du programme en utilisant les positions trouvées
-            program = self.text[second_open_bracket_pos + 1:self.text.index(']', second_open_bracket_pos)].strip()
+            program = self.text[second_open_bracket_pos + 1:self.text.index(']', second_open_bracket_pos + 1)].strip()
 
             # Vérifier si le nom du programme est constitué uniquement de caractères alphanumériques et de soulignements
-            if program.isalnum() or '_' in program:
-                return program
-            else:
-                return "Unknown"
+            return program
         except ValueError:
             return "Unknown"
 

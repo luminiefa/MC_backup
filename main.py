@@ -196,6 +196,7 @@ def main():
             logs = load(folder_path)
             if logs is not None:
                 log_manager.add_logs([Log(log, folder_path) for log in logs])
+                print(log_manager)
         elif choice == 3:
             print("test")
         elif choice == 9:
