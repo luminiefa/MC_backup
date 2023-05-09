@@ -23,7 +23,7 @@ def load_log_from_file(path):
 
     """
     try:
-        with open(path, 'r') as file:
+        with open(path, 'r', encoding='utf-8') as file:
             return file.readlines()
     except FileNotFoundError:
         print("Le chemin du fichier n'existe pas")
@@ -31,6 +31,7 @@ def load_log_from_file(path):
     except Exception as error:
         print(f"Une erreur s'est produite: {error}")
         return None
+
 
 def load_logs_from_folder(folder_path):
     """
